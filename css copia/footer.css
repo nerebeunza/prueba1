@@ -1,0 +1,70 @@
+.double-text {
+    display: flex;
+    max-width: 1020px;
+
+}
+
+.text-left {
+    margin-right: 100px;
+}
+
+.text-right {
+    max-width: 70%;
+}
+
+.campo {
+    border: 0;
+    background-color: transparent;
+    color: var(--link-hover);
+    font-size: 19px; 
+    padding-bottom: 20px;
+}
+
+form {
+    border-bottom: 2px solid white;
+    display: flex;
+    max-width: 400px;
+}
+
+button {
+    color: white;
+    background-color: transparent;
+    border: 0;
+    padding-bottom: 20px;
+    font-size: 20px;
+    justify-content: right;
+    padding-left: 100px;
+}
+
+
+.footer-business, .direction, .sign-up {
+    margin-bottom: var(--margin-v-s);
+}
+
+.copyright {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+    .double-text {
+        display: block;
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 60px;
+    }
+
+    .text-left {
+        margin-right: 0px;
+    }
+    
+    .text-right {
+        max-width: 100%;
+    }
+
+    .direction {
+        margin-top: var(--margin-v-s);
+    }
+
+}

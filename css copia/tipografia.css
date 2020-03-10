@@ -1,0 +1,65 @@
+body {
+    line-height: 1.5;
+    font-family: var(--tipo);
+    font-weight: var(--tipo-normal);
+    color: var(--white);
+}
+
+a {
+    color: var(--white);
+}
+
+a:hover {
+    color: var(--link-hover);
+}
+
+
+.text-intro {
+    font-size: var(--text-l);
+    font-weight: var(--tipo-light);
+}
+
+h1 {
+    font-family: var(--tipo);
+    font-weight: var(--tipo-light); 
+    font-size: var(--text-l);
+    color: var(--black);
+}
+
+.post-text {
+    color: var(--black);
+    font-family: var(--tipo);
+    font-weight: var(--tipo-light); 
+    font-size: var(--text-base);
+}
+
+.feed a {
+    color: black;
+}
+
+.double-text {
+    color: var(--white);
+    font-family: var(--tipo);
+    font-weight: var(--tipo-light); 
+    font-size: var(--text-base);
+}
+
+.copyright {
+    color: var(--white);
+    font-family: var(--tipo);
+    font-weight: var(--tipo-light); 
+    font-size: 16px;
+}
+
+.header-link {
+    font-size: var(--text-base);
+    font-weight: var(--tipo-light);
+    max-width: 300px;
+}
+
+.logo {
+    font-size: var(--text-l);
+    max-width: 300px;
+    font-weight: var(--tipo-medium);
+}
+

@@ -1,0 +1,48 @@
+.hero-slide {
+    height: 100vh;
+    position: relative;
+}
+
+.hero img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero img:hover {
+    opacity: 1;
+    transition: 0; 
+}
+
+.hero-text {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 30px;
+    left: 40px;
+    z-index: 2;
+    font-size: var(--text-base);
+    font-weight: var(--tipo-light);
+    max-width: 300px;
+    line-height: 30px;
+}
+
+.hero-text-2 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 30px;
+    right: 40px;
+    z-index: 2;
+    font-size: var(--text-base);
+    font-weight: var(--tipo-light);
+    max-width: 300px;
+    line-height: 30px;
+}
+
+@media (max-width: 650px) {
+    .hero-text {
+        max-width: 200px;
+        left: 20px;
+    }
+}

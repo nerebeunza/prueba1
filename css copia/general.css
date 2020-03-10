@@ -1,0 +1,30 @@
+/* Base */
+
+* {
+    box-sizing: border-box;
+  }
+
+  img {
+      max-width: 100%;
+  }
+  img:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s linear;
+  }
+
+  video:hover {
+    opacity: 0.8;
+    transition: opacity 0.2s linear;
+  }
+  
+  video {
+    max-width: 100%;
+  }
+
+  /* Typography */
+  
+  body {
+    background-color: var(--black);
+  }
+  
+ 
